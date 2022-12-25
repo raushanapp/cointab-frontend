@@ -23,4 +23,13 @@ table {
     padding: 10px 15px 10px 15px;
     border-radius: 5px;
   }
+  input{
+    padding: 10px 15px 10px 15px;
+  font-size: 17px;
+  margin-left: 8px;
+  background: none;
+  border: 1px solid #cccc;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
   

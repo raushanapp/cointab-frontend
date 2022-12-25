@@ -31,8 +31,8 @@ function Pages2() {
   return (
       <div>
           <h1>Page 2</h1>
-          <input type="text" value={country} onChange={(e) => setCountry(e.target.value)} />
-          <button onClick={filterCountry}>click</button>
+          <input type="text" placeholder='Filter By Country name' value={country} onChange={(e) => setCountry(e.target.value)} />
+          <button onClick={filterCountry}>Filter</button>
               <table>
                   <thead>
                       <tr>
