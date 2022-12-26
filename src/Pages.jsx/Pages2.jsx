@@ -49,8 +49,8 @@ function Pages2() {
                   <Users data={ el} key={index} />
               ))}
           </table>
-          <button>Fetch Users</button>
-          <button>Delete Users</button>
+          {/* <button>Fetch Users</button>
+          <button>Delete Users</button> */}
           <button onClick={fetchData}>Users Details</button>
        
     </div>
